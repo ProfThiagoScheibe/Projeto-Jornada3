@@ -9,3 +9,9 @@ function tocaSomDinheiro(){
     }
     
     document.querySelector(".tecla_dinheiro").onclick = tocaSomDinheiro;
+
+function tocaSomVaia(){
+    document.querySelector("#som_tecla_vaia").play()
+}
+
+    document.querySelector(".tecla_vaia").onclick = tocaSomVaia;
