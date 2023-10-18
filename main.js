@@ -15,3 +15,11 @@ function tocaSomVaia(){
 }
 
     document.querySelector(".tecla_vaia").onclick = tocaSomVaia;
+
+function tocaSomAplausos(){
+    document.querySelector('#som_tecla_aplausos').play()
+}
+
+    const listaDeTeclas = document.querySelectorAll(".tecla");
+
+    listaDeTeclas[0].onclick = tocaSomAplausos
