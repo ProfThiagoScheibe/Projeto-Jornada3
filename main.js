@@ -1,11 +1,11 @@
+function tocaSomAplausos() {
+     document.querySelector('#som_tecla_aplausos').play(); 
+}
     const listaDeTeclas = document.querySelectorAll(".tecla");
-
-    function tocaSomAplausos = document.querySelector('#som_tecla_aplausos').play(); 
-
 let contador = 0;
-while(contador < 9){
+while(contador < listaDeTeclas.length){
 
-    listaDeTeclas[0].onclick = tocaSomAplausos ;
+    listaDeTeclas[contador].onclick = tocaSomAplausos ;
     contador = contador + 1 ;
     console.log(contador) ;
 }
